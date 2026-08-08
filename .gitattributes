@@ -1,0 +1,14 @@
+# Configuration for git attributes
+# Text file normalization
+# Generated on 2026-11-10
+*.bat text eol=crlf
+**/*.py linguist-detectable
+
+yarn.lock linguist-generated
+
+*.py linguist-detectable
+public/*.html linguist-vendored
+*.json linguist-detectable=false
+*.yaml linguist-detectable=false
+* text=auto
+# eof e8e3ce5e
